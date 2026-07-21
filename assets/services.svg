@@ -1,0 +1,92 @@
+<svg width="600"
+height="500"
+viewBox="0 0 600 500"
+xmlns="http://www.w3.org/2000/svg">
+
+
+<defs>
+
+<linearGradient id="serviceGradient"
+x1="0"
+y1="0"
+x2="1"
+y2="1">
+
+<stop offset="0%"
+stop-color="#38bdf8"/>
+
+<stop offset="100%"
+stop-color="#2563eb"/>
+
+</linearGradient>
+
+</defs>
+
+
+
+
+<!-- Cercle arrière -->
+
+<circle
+cx="300"
+cy="250"
+r="190"
+fill="#eff6ff"
+/>
+
+
+
+
+<!-- Ordinateur -->
+
+<rect
+x="150"
+y="150"
+width="300"
+height="190"
+rx="20"
+fill="url(#serviceGradient)"
+/>
+
+
+
+<rect
+x="180"
+y="180"
+width="240"
+height="120"
+rx="10"
+fill="white"
+/>
+
+
+
+
+<!-- Support -->
+
+<path
+d="M230 350
+H370
+L400 390
+H200Z"
+fill="#2563eb"
+/>
+
+
+
+<!-- Icône éclair -->
+
+<path
+d="M310 200
+L260 270
+H300
+L275 330
+L350 245
+H310Z"
+fill="#2563eb"
+/>
+
+
+
+
+</svg>
