@@ -552,103 +552,27 @@ document.querySelectorAll('a[href^="#"]')
 
 
 
-const contactForm =
-    document.querySelector(".contact-form");
 
+
+
+
+    const contactForm =
+    document.querySelector(".contact-form");
 
 
 if(contactForm){
 
-
-
     contactForm.addEventListener(
         "submit",
-        (event) => {
-
-
-
-            event.preventDefault();
-
-
-
-
-            const name =
-                document.querySelector("#name").value.trim();
-
-
-
-            const email =
-                document.querySelector("#email").value.trim();
-
-
-
-            const message =
-                document.querySelector("#message").value.trim();
-
-
-
-
-
-
-            if(
-                name === "" ||
-                email === "" ||
-                message === ""
-            ){
-
-
-                showNotification(
-                    "Veuillez remplir tous les champs.",
-                    "error"
-                );
-
-
-                return;
-
-
-            }
-
-
-
-
-
-
-
-            if(!validateEmail(email)){
-
-
-                showNotification(
-                    "Adresse email invalide.",
-                    "error"
-                );
-
-
-                return;
-
-
-            }
-
-
-
-
-
+        () => {
 
             showNotification(
                 "Message envoyé avec succès.",
                 "success"
             );
 
-
-
-            contactForm.reset();
-
-
-
         }
-
     );
-
-
 
 }
 
