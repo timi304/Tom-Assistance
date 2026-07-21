@@ -737,9 +737,10 @@
 
 
         <form 
-        class="contact-form reveal"
-        action="https://formspree.io/f/mpqvlbqg"
-        method="POST">
+            class="contact-form reveal"
+            action="https://formspree.io/f/mpqvlbqg"
+            method="POST"
+        >
 
 
             <div class="input-group">
@@ -752,6 +753,7 @@
 
                 <input
                     type="text"
+                    name="nom"
                     id="name"
                     placeholder="Votre nom"
                     required
@@ -773,6 +775,7 @@
 
                 <input
                     type="email"
+                    name="email"
                     id="email"
                     placeholder="Votre email"
                     required
@@ -794,6 +797,7 @@
 
 
                 <textarea
+                    name="message"
                     id="message"
                     rows="5"
                     placeholder="Votre demande..."
